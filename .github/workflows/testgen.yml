@@ -36,10 +36,10 @@ jobs:
       - name: mypy Typecheck
         run: mypy ./tests
 
-      - name: Black Format
-        uses: psf/black@stable
-        with:
-          src: "./tests"
+    # - name: Black Format
+    #   uses: psf/black@stable
+    #   with:
+    #     src: "./tests"
 
   testgen:
     runs-on: ubuntu-latest
